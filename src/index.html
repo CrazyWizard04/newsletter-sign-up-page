@@ -12,6 +12,7 @@
     />
 
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Newsletter Sign-up</title>
   </head>
   <body>
@@ -38,26 +39,33 @@
           Join 60.000+ product managers receiving monthly updates on:
         </p>
 
-        <ol class="feature-list">
-          <li class="feature">Product discovery and building what matters</li>
-          <li class="feature">Measuring to ensure updates are a success</li>
-          <li class="feature">And much more!</li>
-        </ol>
+        <ul class="feature-list">
+          <li class="feature-item">
+            Product discovery and building what matters
+          </li>
+          <li class="feature-item">
+            Measuring to ensure updates are a success
+          </li>
+          <li class="feature-item">And much more!</li>
+        </ul>
 
-        <form id="sign-up">
-          <div class="form-structure">
+        <form id="form-sign-up">
+          <div class="form-control">
             <label for="email">Email address</label>
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="email@company.com"
-            />
             <div class="error"></div>
-
-            <button type="submit">Subscribe to monthly newsletter</button>
           </div>
+
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="email@company.com"
+          />
         </form>
+
+        <button class="submit-btn" type="submit">
+          Subscribe to monthly newsletter
+        </button>
       </div>
     </div>
 
