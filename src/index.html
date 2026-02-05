@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <title>Newsletter Sign-up</title>
+  </head>
+  <body>
+    <div class="newsletter-sign-up">
+      <picture class="newsletter-preview-img">
+        <source
+          srcset="images/illustration-sign-up-desktop.svg"
+          media="(min-width: 64rem)"
+        />
+        <source
+          srcset="images/illustration-sign-up-tablet.svg"
+          media="(min-width: 48rem)"
+        />
+
+        <img
+          src="images/illustration-sign-up-mobile.svg"
+          alt="Newsletter Sign-up"
+        />
+      </picture>
+
+      <div class="newsletter-content">
+        <h2 class="heading">Stay updated!</h2>
+        <p class="paragraph">
+          Join 60.000+ product managers receiving monthly updates on:
+        </p>
+
+        <ol class="feature-list">
+          <li class="feature">Product discovery and building what matters</li>
+          <li class="feature">Measuring to ensure updates are a success</li>
+          <li class="feature">And much more!</li>
+        </ol>
+
+        <form id="sign-up">
+          <div class="form-structure">
+            <label for="email">Email address</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="email@company.com"
+            />
+            <div class="error"></div>
+
+            <button type="submit">Subscribe to monthly newsletter</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="newsletter-success">
+      <img src="images/icon-success.svg" alt="" />
+      <h2 class="heading">Thanks for subscribing!</h2>
+      <p class="paragraph"></p>
+
+      <button>Dismiss message</button>
+    </div>
+  </body>
+</html>
