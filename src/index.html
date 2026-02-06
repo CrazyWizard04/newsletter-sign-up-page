@@ -13,6 +13,7 @@
 
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
     <title>Newsletter Sign-up</title>
   </head>
   <body>
@@ -52,7 +53,7 @@
         <form id="form-sign-up">
           <div class="form-control">
             <label for="email">Email address</label>
-            <div class="error"></div>
+            <div class="error-display"></div>
           </div>
 
           <input
@@ -63,18 +64,24 @@
           />
         </form>
 
-        <button class="submit-btn" type="submit">
+        <button class="submit-btn" type="submit" form="form-sign-up">
           Subscribe to monthly newsletter
         </button>
       </div>
     </div>
 
     <div class="newsletter-success">
-      <img src="images/icon-success.svg" alt="" />
-      <h2 class="heading">Thanks for subscribing!</h2>
-      <p class="paragraph"></p>
+      <div class="newsletter-success-content">
+        <img src="images/icon-success.svg" alt="" />
+        <h2 class="heading">Thanks for subscribing!</h2>
+        <p class="paragraph">
+          A confirmation email has been sent to
+          <span class="subscription-email">ash@loremcompany.com</span>. Please
+          open it and click the button inside to confirm your subscription.
+        </p>
+      </div>
 
-      <button>Dismiss message</button>
+      <button class="dismiss-btn">Dismiss message</button>
     </div>
   </body>
 </html>
