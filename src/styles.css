@@ -124,7 +124,8 @@ body {
   color: var(--color-red);
 }
 
-.submit-btn, .dismiss-btn {
+.submit-btn,
+.dismiss-btn {
   padding: 1.5rem;
   border: none;
   border-radius: 0.5rem;
@@ -136,7 +137,8 @@ body {
   cursor: pointer;
 }
 
-.submit-btn:hover, .dismiss-btn:hover {
+.submit-btn:hover,
+.dismiss-btn:hover {
   background-image: linear-gradient(90deg, #ff527a, #fe6a3a);
 }
 
@@ -199,7 +201,8 @@ body {
     padding: 4rem;
   }
 
-  .newsletter-success-content, .dismiss-btn {
+  .newsletter-success-content,
+  .dismiss-btn {
     margin: 0;
   }
 }
