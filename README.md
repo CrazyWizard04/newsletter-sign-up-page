@@ -34,7 +34,7 @@ A responsive newsletter sign-up component with client-side email validation and 
 
 ### 🔗 Links
 
-- 💡 Solution URL: [Frontend Mentor Submission](---)
+- 💡 Solution URL: [Frontend Mentor Submission](https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-css-and-js-dWc_MMYdOn)
 - 🌐 Live Site URL: [Live Demo](https://thewizard04-newsletter-signup.vercel.app)
 
 ---
